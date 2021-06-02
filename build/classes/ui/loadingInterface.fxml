@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="load" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="439.0" prefWidth="415.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="171.0" layoutY="166.0" text="Loading..." textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="25.0" layoutX="103.0" layoutY="207.0" stroke="BLACK" strokeType="INSIDE" width="211.0" />
+      <Label fx:id="txtPercent" layoutX="325.0" layoutY="210.0" text="0 %" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="loadBarShape" arcHeight="5.0" arcWidth="5.0" fill="#3498db" height="25.0" layoutX="103.0" layoutY="207.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</Pane>
